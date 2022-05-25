@@ -1,0 +1,191 @@
+*, body {
+    box-sizing: content-box;
+    margin:0;
+    padding:0;
+}
+
+/* Home Page Start */
+
+.top-content {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+
+
+/* Navigation */
+nav{
+    float: right;
+    padding: 1em;
+    /* position: absolute;
+    top: 1.4em;
+    right: 2em;
+    text-decoration: none; */
+}
+
+a {
+    text-decoration: none;
+    margin: 0.3em;
+}
+
+nav a {
+    /* margin-left: 1.2em; */
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    border: 0.6em solid rgb(113, 212, 166);
+    background-color: rgb(113, 212, 166);
+    border-radius: 0.5em 0.5em;
+}
+
+nav a:hover {
+    position: relative;
+    border: 0.1em solid transparent;
+    background-color: transparent;
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    
+}
+
+/* Horizontal Line */
+
+hr{
+    margin: 1.5em;
+    padding: 0.01em;
+    background-color: azure;
+    animation-timing-function: ease-in-out;
+    animation-duration: .5s;
+}
+
+.img-link{
+    text-align: center;
+    margin-bottom: 5em;
+    
+}
+
+.img-align {
+    display: inline-block;
+}
+
+
+
+/* About page */
+
+.about-content{
+    padding: 1em;
+}
+
+
+
+/* Attractions Page Start */
+
+.img-float{
+    display: flex;
+    
+}
+
+.container{
+    width: 90%;
+    margin: 5em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.wrapper-one {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper-content-one{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.wrapper-content-two{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.wrapper-content-three{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+/* .wrapper-content-four{
+    grid-column: 2;
+    grid-row: 2;
+} */
+
+/* .wrapper-content-five{
+    grid-column: 1;
+    grid-row: 3;
+} */
+
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+
+/* Contact Form Start */
+
+.form-container {
+    padding: 8em;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Footer start */
+footer {
+   text-align: center;
+    background-color: rgb(113, 212, 166);
+}
+
+
+/* .fa-facebook {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    font-size: 20px;
+} */
+
+/* .fa-twitter {
+    position: absolute;
+    bottom: 0em;
+    right: 3em;
+    font-size: 20px;
+} */
+
+/* .fa-instagram {
+    position: absolute;
+    top: 2em;
+    right: 4.1em;
+    font-size: 20px;
+} */
